@@ -1,0 +1,17 @@
+<b>Current Weather Conditions for:
+${weather.locations.city}, ${weather.locations.region}, ${weather.locations.country}</b><hr>
+
+<ul>
+	<li>Temperature: ${weather.conditions.temp}</li>
+	<li>Condition: ${weather.conditions.text}</li>
+	<li>Humidity: ${weather.atmosphere.humidity}</li>
+	<li>Wind Chill: ${weather.wind.chill}</li>
+	<li>Sunrise: ${weather.astronomy.sunrise}</li>
+</ul>
+
+<h3>Three Days Forecast</h3>
+<ul>
+	<li>Day: ${weather.forecastList[0].currentday} Low: ${weather.forecastList[0].low} High: ${weather.forecastList[0].high} Condition: ${weather.forecastList[0].conditions}</li>
+	<li>Day: ${weather.forecastList[1].currentday} Low: ${weather.forecastList[1].low} High: ${weather.forecastList[1].high} Condition: ${weather.forecastList[1].conditions}</li>
+	<li>Day: ${weather.forecastList[2].currentday} Low: ${weather.forecastList[2].low} High: ${weather.forecastList[2].high} Condition: ${weather.forecastList[2].conditions}</li>
+</ul>

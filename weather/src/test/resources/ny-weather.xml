@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2017-04-11T03:33:27Z" yahoo:lang="en-US">
+    <results>
+        <channel>
+            <yweather:units xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" distance="km" pressure="mb" speed="km/h" temperature="C"/>
+            <title>Yahoo! Weather - New York, NY, US</title>
+            <link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2459115/</link>
+            <description>Yahoo! Weather for New York, NY, US</description>
+            <language>en-us</language>
+            <lastBuildDate>Mon, 10 Apr 2017 11:33 PM EDT</lastBuildDate>
+            <ttl>60</ttl>
+            <yweather:location xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" city="New York" country="United States" region=" NY"/>
+            <yweather:wind xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" chill="64" direction="215" speed="28.97"/>
+            <yweather:atmosphere xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" humidity="49" pressure="34507.31" rising="0" visibility="25.91"/>
+            <yweather:astronomy xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" sunrise="6:26 am" sunset="7:30 pm"/>
+            <image>
+                <title>Yahoo! Weather</title>
+                <width>142</width>
+                <height>18</height>
+                <link>http://weather.yahoo.com</link>
+                <url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+            </image>
+            <item>
+                <title>Conditions for New York, NY, US at 11:00 PM EDT</title>
+                <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">40.71455</geo:lat>
+                <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">-74.007118</geo:long>
+                <link>http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2459115/</link>
+                <pubDate>Mon, 10 Apr 2017 11:00 PM EDT</pubDate>
+                <yweather:condition xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="29" date="Mon, 10 Apr 2017 11:00 PM EDT" temp="18" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="10 Apr 2017" day="Mon" high="22" low="8" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="11 Apr 2017" day="Tue" high="24" low="13" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="39" date="12 Apr 2017" day="Wed" high="21" low="13" text="Scattered Showers"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="13 Apr 2017" day="Thu" high="17" low="8" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="14 Apr 2017" day="Fri" high="15" low="7" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="28" date="15 Apr 2017" day="Sat" high="14" low="7" text="Mostly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="16 Apr 2017" day="Sun" high="24" low="13" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="17 Apr 2017" day="Mon" high="19" low="12" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="18 Apr 2017" day="Tue" high="13" low="7" text="Partly Cloudy"/>
+                <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="39" date="19 Apr 2017" day="Wed" high="13" low="7" text="Scattered Showers"/>
+                <description>&lt;![CDATA[&lt;img src="http://l.yimg.com/a/i/us/we/52/29.gif"/&gt; &lt;BR /&gt; &lt;b&gt;Current Conditions:&lt;/b&gt; &lt;BR /&gt;Partly Cloudy
+                    &lt;BR /&gt; &lt;BR /&gt; &lt;b&gt;Forecast:&lt;/b&gt; &lt;BR /&gt; Mon - Partly Cloudy. High: 22Low: 8 &lt;BR /&gt; Tue - Partly Cloudy. High: 24Low: 13 &lt;BR /&gt; Wed - Scattered Showers. High: 21Low: 13
+                    &lt;BR /&gt; Thu - Partly Cloudy. High: 17Low: 8 &lt;BR /&gt; Fri - Partly Cloudy. High: 15Low: 7 &lt;BR /&gt; &lt;BR /&gt; &lt;a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-2459115/"&gt;Full Forecast at Yahoo! Weather&lt;/a&gt;
+                    &lt;BR /&gt; &lt;BR /&gt; (provided by &lt;a href="http://www.weather.com" &gt;The Weather Channel&lt;/a&gt;) &lt;BR /&gt; ]]&gt;
+                </description>
+                <guid isPermaLink="false"/>
+            </item>
+        </channel>
+    </results>
+</query><!-- total: 8 -->
+<!-- prod_bf1_1;paas.yql;queryyahooapiscomproductionbf1;bd77dcee-18f6-11e7-a80f-d4ae52974741 -->

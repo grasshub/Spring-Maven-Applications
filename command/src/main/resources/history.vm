@@ -1,0 +1,16 @@
+Current Weather Conditions for:
+${locations.city}, ${locations.region}, ${locations.country}
+
+#foreach( $weather in $weatherList )
+Temperature: ${weather.conditions.temp}
+Condition: ${weather.conditions.text}
+Humidity: ${weather.atmosphere.humidity}
+Wind Chill: ${weather.wind.chill}
+Sunrise: ${weather.astronomy.sunrise}
+Date: ${weather.currentdate}
+
+Three Days Forecast
+Day: ${weather.forecastList[0].currentday} Low: ${weather.forecastList[0].low} High: ${weather.forecastList[0].high} Condition: ${weather.forecastList[0].conditions}
+Day: ${weather.forecastList[1].currentday} Low: ${weather.forecastList[1].low} High: ${weather.forecastList[1].high} Condition: ${weather.forecastList[1].conditions}
+Day: ${weather.forecastList[2].currentday} Low: ${weather.forecastList[2].low} High: ${weather.forecastList[2].high} Condition: ${weather.forecastList[2].conditions}
+#end
