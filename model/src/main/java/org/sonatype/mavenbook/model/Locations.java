@@ -24,7 +24,7 @@ public class Locations {
 	@Id
 	private String woeid;
 	
-	@OneToMany(mappedBy="locations", cascade=CascadeType.ALL)
+	@OneToMany(mappedBy="locations")
 	private List<Weather> weatherList = new ArrayList<>();
 
 	private String city;

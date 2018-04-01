@@ -17,7 +17,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Main {
 	
 	// Yahoo weather RSS feed accepts WOE (Where On Earth) ID instead of zipcode
-	// Use the WOE ID searching site: http://woeid.factormystic.net/ to find WOEID based on zipcode
+	// Use the WOE ID searching site: http://www.woeidlookup.com/ to find WOEID based on zipcode
 	// For instance the default zipcode 60202 maps to WOEID: 12784107 for IL/USA
 	private String woeid;
 	private static final Logger logger = LoggerFactory.getLogger(Main.class);
