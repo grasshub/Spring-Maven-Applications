@@ -28,6 +28,10 @@ public class WeatherController {
 	ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws DocumentException, IOException {
 		
 		String woeid = request.getParameter(WOEID);
+		// Yahoo Retrieve service will return http 400 error if woeid equals null
+		if (woeid == null)
+			return new ModelAndView(REMINDER);
+
 		Weather weather = weatherService.retrieveForecast(woeid);	
 		// In case the weather information at specific location doesn't exist, display the reminder page.
 		if (weather == null)
